@@ -1,7 +1,7 @@
 <h1>Python - KeyLogger</h1>
 
 <h2>Description</h2>
-This project consists of a simple Python script that can be used to log all key presses from a targeted user. Certain keys (like the Enter/Return key) may not log as desired. In the event of a special key not logging, an exception message will be provided in the console log or terminal (if you are using a visual environment to watch all activity as it occurs). In either case, this Python script will create a single text file named keyfile.txt. As a user continues typing (while this script is running), all alphanumeric key inputs will be logged and appended to the keyfile.txt file and automatically saved for later viewing. This file can be opened with any simple text editor application and will provide a log of all keys pressed except special keys (such as spacebar, enter, backspace, etc. as it is meant to log input keys specifically). This is a rather common hacking tool to log the keys a targeted user presses in order to help determine that user's login and password credentials.  
+This project consists of a simple Python script that can be used to log all key presses from a targeted user. Certain keys (like the Enter/Return key) may not log as desired. In the event of a special key not logging, an exception message will be provided in the console log or terminal (if you are using a visual environment to watch all activity as it occurs) that says, "Error getting char." In either case, this Python script will create a single text file named keyfile.txt. As a user continues typing (while this script is running), all alphanumeric key inputs will be logged and appended to the keyfile.txt file and automatically saved for later viewing. This file can be opened with any simple text editor application and will provide a log of all keys pressed except special keys (such as spacebar, enter, backspace, etc. as it is meant to log input keys specifically). This is a rather common hacking tool to log the keys a targeted user presses in order to help determine that user's login and password credentials.  
 <br />
 
 
@@ -11,7 +11,7 @@ This project consists of a simple Python script that can be used to log all key 
 
 <h2>Environments Used </h2>
 
-- <b>Visual Studio Code</b> (21H2)
+- <b>Visual Studio Code</b>
 
 <h2>Program walk-through:</h2>
 
